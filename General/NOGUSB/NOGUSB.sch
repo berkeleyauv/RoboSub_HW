@@ -874,4 +874,15 @@ F 3 "~" H 1400 3850 50  0001 C CNN
 $EndComp
 Text Notes 6150 1900 0    50   ~ 0
 X5R
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61B44BA9
+P 1400 4100
+F 0 "H1" H 1500 4146 50  0000 L CNN
+F 1 "Logo" H 1500 4055 50  0000 L CNN
+F 2 "extraparts:auv_logo" H 1400 4100 50  0001 C CNN
+F 3 "~" H 1400 4100 50  0001 C CNN
+	1    1400 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
