@@ -7,3 +7,5 @@ Projects meant to serve as template for a full board. PCB trace/space (6mil/6mil
 - JLCPCB 2 Layer
 
 `libs` is linked using a relative path so it may need modification depending on folder structure.
+
+To use, just copy one of the templates, rename the `.pro`, `.kicad_pcb`, and `.sch` files, and start designing.

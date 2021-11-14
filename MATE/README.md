@@ -1,3 +1,3 @@
-# mate
+# MATE
 
 Boards specifically designed for MATE.
