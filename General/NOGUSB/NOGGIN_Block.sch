@@ -273,9 +273,9 @@ Text Label 6500 4600 0    50   ~ 0
 SWDIO
 Text Label 6500 3900 0    50   ~ 0
 SWCLK
-Text Label 6500 4300 0    50   ~ 0
+Text Label 6500 5000 0    50   ~ 0
 RX
-Text Label 6500 4200 0    50   ~ 0
+Text Label 6500 5100 0    50   ~ 0
 TX
 Text HLabel 5100 3600 0    50   BiDi ~ 0
 PA3
@@ -309,9 +309,9 @@ Text HLabel 6800 3900 2    50   BiDi ~ 0
 PA14-BOOT0(SWCLK)
 Text HLabel 6500 4100 2    50   BiDi ~ 0
 PA8
-Text HLabel 6800 4200 2    50   BiDi ~ 0
+Text HLabel 6500 4200 2    50   BiDi ~ 0
 PA9(TX)
-Text HLabel 6800 4300 2    50   BiDi ~ 0
+Text HLabel 6500 4300 2    50   BiDi ~ 0
 PA10(RX)
 Text HLabel 6500 4400 2    50   BiDi ~ 0
 PA11
@@ -323,16 +323,18 @@ Text HLabel 6500 4800 2    50   BiDi ~ 0
 PD0
 Text HLabel 6500 4900 2    50   BiDi ~ 0
 PD1
-Text HLabel 6500 5000 2    50   BiDi ~ 0
+Text HLabel 6650 5000 2    50   BiDi ~ 0
 PD2
-Text HLabel 6500 5100 2    50   BiDi ~ 0
+Text HLabel 6650 5100 2    50   BiDi ~ 0
 PD3
 Wire Wire Line
 	6800 3900 6500 3900
 Wire Wire Line
-	6800 4200 6500 4200
-Wire Wire Line
-	6800 4300 6500 4300
-Wire Wire Line
 	6800 4600 6500 4600
+Text Notes 7350 5650 0    50   ~ 0
+TX/RX rerouted bc of DBCC pins
+Wire Wire Line
+	6650 5000 6500 5000
+Wire Wire Line
+	6650 5100 6500 5100
 $EndSCHEMATC

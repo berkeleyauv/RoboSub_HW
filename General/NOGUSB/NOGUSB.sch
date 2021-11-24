@@ -508,10 +508,7 @@ F 3 "" H 3800 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 4000 3800 4050
-NoConn ~ 6450 4500
-NoConn ~ 6450 4600
 NoConn ~ 6450 3500
-NoConn ~ 5200 3650
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 61953933
@@ -885,4 +882,17 @@ F 3 "~" H 1400 4100 50  0001 C CNN
 	1    1400 4100
 	1    0    0    -1  
 $EndComp
+Text Label 5200 4350 2    50   ~ 0
+USB_DBCC1
+Text Label 5200 4450 2    50   ~ 0
+USB_DBCC2
+Text Label 2000 1800 0    50   ~ 0
+USB_DBCC1
+Text Label 2000 2100 0    50   ~ 0
+USB_DBCC2
+Wire Wire Line
+	2000 2100 2000 2000
+Wire Wire Line
+	2000 1900 2000 1800
+NoConn ~ 5200 3650
 $EndSCHEMATC
