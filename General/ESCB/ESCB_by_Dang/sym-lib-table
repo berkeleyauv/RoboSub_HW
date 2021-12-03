@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BESC)(type Legacy)(uri C:/Projects/RoboSub_HW/MATE/ESCC/BESC.lib)(options "")(descr ""))
+  (lib (name extraparts)(type Legacy)(uri C:/Projects/RoboSub_HW/libs/extraparts.lib)(options "")(descr ""))
+)
