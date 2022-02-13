@@ -1433,7 +1433,7 @@
     (property "Value" "Conn_01x03" (id 1) (at 137.16 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "extraparts:Samtec_mPOWER_UMPS_3pin" (id 2) (at 143.51 72.39 0)
+    (property "Footprint" "extraparts:Samtec_mPOWER_UMPT_3pin" (id 2) (at 143.51 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 143.51 72.39 0)
@@ -1834,7 +1834,7 @@
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-00006027c37d"
-      (reference "J1") (unit 1) (value "Conn_01x03") (footprint "extraparts:Samtec_mPOWER_UMPS_3pin")
+      (reference "J1") (unit 1) (value "Conn_01x03") (footprint "extraparts:Samtec_mPOWER_UMPT_3pin")
     )
     (path "/00000000-0000-0000-0000-0000602559ec"
       (reference "R1") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
