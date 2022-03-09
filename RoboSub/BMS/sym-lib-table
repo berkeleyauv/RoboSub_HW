@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "BMS_Library")(type "KiCad")(uri "${KIPRJMOD}/BMS_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "extraparts")(type "KiCad")(uri "${KIPRJMOD}/../../libs/extraparts.kicad_sym")(options "")(descr ""))
 )
