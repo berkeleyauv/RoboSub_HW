@@ -16,3 +16,6 @@
 *.drl
 *-cache
 *-cache.lib
+
+*-backups
+*.kicad_prl
