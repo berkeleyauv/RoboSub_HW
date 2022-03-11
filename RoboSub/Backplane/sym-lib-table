@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "extraparts")(type "KiCad")(uri "${KIPRJMOD}/../../libs/extraparts.kicad_sym")(options "")(descr ""))
+  (lib (name "urbparts")(type "KiCad")(uri "${KIPRJMOD}/../../urbparts/urbparts.kicad_sym")(options "")(descr ""))
+)
