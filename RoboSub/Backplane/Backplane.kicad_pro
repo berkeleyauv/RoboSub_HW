@@ -323,11 +323,15 @@
     ],
     [
       "1be8059f-78fe-473a-9436-3e2c303393ac",
-      "CAN"
+      "NOGGIN_CAN"
     ],
     [
       "02a592e2-7d43-4770-a734-d28fb2a73cb2",
       "NOGGIN"
+    ],
+    [
+      "dd5e0c32-13bb-4c3b-9a2e-2e275fe0c4b4",
+      "Jetson_CAN"
     ]
   ],
   "text_variables": {}
