@@ -1,3 +1,6 @@
 [submodule "libs"]
 	path = libs
 	url = https://github.com/dragonlock2/extraparts.git
+[submodule "urbparts"]
+	path = urbparts
+	url = https://github.com/berkeleyauv/urbparts.git
