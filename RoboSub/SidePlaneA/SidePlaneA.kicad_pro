@@ -334,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "noggin_g0b1ke.kicad_pro",
+    "filename": "SidePlaneA.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -423,6 +423,38 @@
     [
       "00000000-0000-0000-0000-0000619122e5",
       "NOGGIN"
+    ],
+    [
+      "4e504cb6-a44d-422e-912d-69085b7bbfa8",
+      "WS2812B_1"
+    ],
+    [
+      "dbe8260e-b121-4a44-8ad7-142826bfc395",
+      "WS2812B_7"
+    ],
+    [
+      "2bcb8eff-5353-49d7-940f-1af0870f1ac9",
+      "WS2812B_2"
+    ],
+    [
+      "f99b35d7-beeb-4771-a7e4-1e011b2080ce",
+      "WS2812B_3"
+    ],
+    [
+      "502ceb05-80c8-48a6-b40a-921ed2d990a1",
+      "WS2812B_4"
+    ],
+    [
+      "3c477eae-1aa9-47b6-9db0-2202ae49267b",
+      "WS2812B_5"
+    ],
+    [
+      "5d24036a-1517-4d1c-973a-f38dbff31a5e",
+      "WS2812B_6"
+    ],
+    [
+      "a474115f-6802-4663-a588-f5be744cf577",
+      "WS2812B_8"
     ]
   ],
   "text_variables": {}
