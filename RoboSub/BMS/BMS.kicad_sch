@@ -1344,8 +1344,8 @@
   (no_connect (at 133.35 153.67) (uuid 6f87a3d4-7f1f-4e88-b8b2-063b52525cda))
   (no_connect (at 133.35 156.21) (uuid 6f87a3d4-7f1f-4e88-b8b2-063b52525cdb))
   (no_connect (at 180.34 80.01) (uuid 78fc441a-de4d-4cca-b58d-c73629315d93))
-  (no_connect (at 180.34 82.55) (uuid 78fc441a-de4d-4cca-b58d-c73629315d93))
-  (no_connect (at 180.34 77.47) (uuid 78fc441a-de4d-4cca-b58d-c73629315d93))
+  (no_connect (at 180.34 82.55) (uuid 78fc441a-de4d-4cca-b58d-c73629315d94))
+  (no_connect (at 180.34 77.47) (uuid 78fc441a-de4d-4cca-b58d-c73629315d95))
   (no_connect (at 180.34 74.93) (uuid fa189bc1-cef5-4bd9-a37b-67bd22f69dd7))
 
   (wire (pts (xy 76.2 76.2) (xy 76.2 74.93))
@@ -2328,7 +2328,7 @@
     (in_bom yes) (on_board yes)
     (uuid 4a45b954-d385-430f-a2ee-394c29269c8b)
     (property "Reference" "D1" (id 0) (at 113.03 65.405 0))
-    (property "Value" "TODO pick one" (id 1) (at 113.03 70.485 0))
+    (property "Value" "SMCJ13A_TVS" (id 1) (at 113.03 70.485 0))
     (property "Footprint" "" (id 2) (at 113.03 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3268,7 +3268,7 @@
       (reference "C11") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4a45b954-d385-430f-a2ee-394c29269c8b"
-      (reference "D1") (unit 1) (value "TODO pick one") (footprint "")
+      (reference "D1") (unit 1) (value "SMCJ13A_TVS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e635a64"
       (reference "D2") (unit 1) (value "LED_ARGB") (footprint "LED_SMD:LED_Cree-PLCC4_2x2mm_CW")
