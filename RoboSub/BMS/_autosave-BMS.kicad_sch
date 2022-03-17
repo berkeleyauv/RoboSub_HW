@@ -2469,7 +2469,7 @@
   (symbol (lib_id "BMS_Library:A31CSP12VDC2D") (at 113.03 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 25ee2213-f0fe-4c7d-ac11-be4f26ffce69)
-    (property "Reference" "K?" (id 0) (at 113.03 28.575 0))
+    (property "Reference" "K1" (id 0) (at 113.03 28.575 0))
     (property "Value" "A31CSP12VDC2D" (id 1) (at 113.665 30.48 0))
     (property "Footprint" "BMS_Library:A3_Relay" (id 2) (at 113.03 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3526,7 +3526,7 @@
       (reference "J6") (unit 1) (value "SWD_UART") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/25ee2213-f0fe-4c7d-ac11-be4f26ffce69"
-      (reference "K?") (unit 1) (value "A31CSP12VDC2D") (footprint "BMS_Library:A3_Relay")
+      (reference "K1") (unit 1) (value "A31CSP12VDC2D") (footprint "BMS_Library:A3_Relay")
     )
     (path "/96040761-b0e5-47a9-8ba7-7d9622476861"
       (reference "Q1") (unit 1) (value "PMV28ENEA") (footprint "Package_TO_SOT_SMD:SOT-23")
