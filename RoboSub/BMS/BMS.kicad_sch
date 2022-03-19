@@ -150,12 +150,12 @@
           (name "Vin" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin power_out line (at 7.62 1.27 180) (length 2.54)
-          (name "Vout" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin power_in line (at 7.62 -1.27 180) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 7.62 1.27 180) (length 2.54)
+          (name "Vout" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1308,7 +1308,6 @@
       )
     )
   )
-
 
   (junction (at 214.63 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 03bc8b94-5aa5-45c0-aa2d-80f331897663)
@@ -2469,7 +2468,7 @@
   (symbol (lib_id "BMS_Library:A31CSP12VDC2D") (at 113.03 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 25ee2213-f0fe-4c7d-ac11-be4f26ffce69)
-    (property "Reference" "K?" (id 0) (at 113.03 28.575 0))
+    (property "Reference" "K1" (id 0) (at 113.03 28.575 0))
     (property "Value" "A31CSP12VDC2D" (id 1) (at 113.665 30.48 0))
     (property "Footprint" "BMS_Library:A3_Relay" (id 2) (at 113.03 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2504,7 +2503,7 @@
     (uuid 3de94952-677f-4939-b835-ffac8620a5f9)
     (property "Reference" "U5" (id 0) (at 194.31 90.17 0))
     (property "Value" "PCC" (id 1) (at 198.12 100.33 0))
-    (property "Footprint" "" (id 2) (at 198.12 95.25 0)
+    (property "Footprint" "BMS_Library:PCC_footprint" (id 2) (at 198.12 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 198.12 95.25 0)
@@ -2539,7 +2538,7 @@
     (uuid 4a45b954-d385-430f-a2ee-394c29269c8b)
     (property "Reference" "D1" (id 0) (at 113.03 45.72 0))
     (property "Value" "SMCJ13A_TVS" (id 1) (at 113.03 50.8 0))
-    (property "Footprint" "" (id 2) (at 113.03 53.34 0)
+    (property "Footprint" "Diode_SMD:D_SMC" (id 2) (at 113.03 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf" (id 3) (at 111.76 48.26 0)
@@ -3499,7 +3498,7 @@
       (reference "C11") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4a45b954-d385-430f-a2ee-394c29269c8b"
-      (reference "D1") (unit 1) (value "SMCJ13A_TVS") (footprint "")
+      (reference "D1") (unit 1) (value "SMCJ13A_TVS") (footprint "Diode_SMD:D_SMC")
     )
     (path "/00000000-0000-0000-0000-00005e635a64"
       (reference "D2") (unit 1) (value "LED_ARGB") (footprint "LED_SMD:LED_Cree-PLCC4_2x2mm_CW")
@@ -3526,7 +3525,7 @@
       (reference "J6") (unit 1) (value "SWD_UART") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/25ee2213-f0fe-4c7d-ac11-be4f26ffce69"
-      (reference "K?") (unit 1) (value "A31CSP12VDC2D") (footprint "BMS_Library:A3_Relay")
+      (reference "K1") (unit 1) (value "A31CSP12VDC2D") (footprint "BMS_Library:A3_Relay")
     )
     (path "/96040761-b0e5-47a9-8ba7-7d9622476861"
       (reference "Q1") (unit 1) (value "PMV28ENEA") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -3583,7 +3582,7 @@
       (reference "U4") (unit 1) (value "TCAN330G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/3de94952-677f-4939-b835-ffac8620a5f9"
-      (reference "U5") (unit 1) (value "PCC") (footprint "")
+      (reference "U5") (unit 1) (value "PCC") (footprint "BMS_Library:PCC_footprint")
     )
   )
 )
