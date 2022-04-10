@@ -2188,7 +2188,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d994cba2-e672-4317-8d11-41ba9a55b8e9)
   )
-  (text "TODO:\n- [done] add a 5V buck converter: R-78E5.0-1.0\n- [done] change model number for the current sensor\n- [done] change 3.3V to be a linear voltage regulator from the 5V\n	- Matthew recommends AZ1117CR\n"
+  (text "TODO:\n- [done] add a 5V buck converter: R-78E5.0-1.0\n- [done] change model number for the current sensor\n- [done] change 3.3V to be a linear voltage regulator from the 5V\n	- Matthew recommends AZ1117CR\n- check diode again\n- make custom layout\n"
     (at 29.21 171.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df6b5968-848c-4920-8f3e-400c3b00eb75)
@@ -2569,7 +2569,7 @@
     (uuid 04115f07-479b-42d9-90c5-1e7be33dc7a6)
     (property "Reference" "U6" (id 0) (at 135.89 81.28 0))
     (property "Value" "AZ1117-3.3" (id 1) (at 135.89 83.82 0))
-    (property "Footprint" "" (id 2) (at 135.89 82.55 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" (id 2) (at 135.89 82.55 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" (id 3) (at 135.89 88.9 0)
@@ -2672,8 +2672,8 @@
     (in_bom yes) (on_board yes)
     (uuid 25ee2213-f0fe-4c7d-ac11-be4f26ffce69)
     (property "Reference" "K1" (id 0) (at 113.03 28.575 0))
-    (property "Value" "A31CSP12VDC2D" (id 1) (at 113.665 30.48 0))
-    (property "Footprint" "BMS_Library:A3_Relay" (id 2) (at 113.03 35.56 0)
+    (property "Value" "A3M1CSQ12VDC2" (id 1) (at 113.665 30.48 0))
+    (property "Footprint" "BMS_Library:A3M1CSQ12VDC2" (id 2) (at 113.03 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 113.03 35.56 0)
@@ -3851,7 +3851,7 @@
       (reference "J6") (unit 1) (value "SWD_UART") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/25ee2213-f0fe-4c7d-ac11-be4f26ffce69"
-      (reference "K1") (unit 1) (value "A31CSP12VDC2D") (footprint "BMS_Library:A3_Relay")
+      (reference "K1") (unit 1) (value "A3M1CSQ12VDC2") (footprint "BMS_Library:A3M1CSQ12VDC2")
     )
     (path "/96040761-b0e5-47a9-8ba7-7d9622476861"
       (reference "Q1") (unit 1) (value "PMV28ENEA") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -3911,7 +3911,7 @@
       (reference "U5") (unit 1) (value "PCC") (footprint "BMS_Library:PCC_footprint")
     )
     (path "/04115f07-479b-42d9-90c5-1e7be33dc7a6"
-      (reference "U6") (unit 1) (value "AZ1117-3.3") (footprint "")
+      (reference "U6") (unit 1) (value "AZ1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-89-3_Handsoldering")
     )
   )
 )
