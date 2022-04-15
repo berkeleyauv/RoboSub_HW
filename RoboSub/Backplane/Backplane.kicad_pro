@@ -125,7 +125,8 @@
         0.508,
         0.635,
         0.762,
-        1.016
+        1.016,
+        1.27
       ],
       "via_dimensions": [
         {
@@ -139,6 +140,10 @@
         {
           "diameter": 1.016,
           "drill": 0.508
+        },
+        {
+          "diameter": 2.032,
+          "drill": 1.016
         }
       ],
       "zones_allow_external_fillets": false,
