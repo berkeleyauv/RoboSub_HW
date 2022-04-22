@@ -2197,6 +2197,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f528805a-7fc9-46fd-a1b8-15ead16df651)
   )
+  (text "[ask Matthew] WHY is VBUS on CAN?" (at 219.71 114.3 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f67cfab7-8943-4f59-bbfb-0ab68a4d7c0d)
+  )
 
   (label "VRAW" (at 180.34 50.165 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
